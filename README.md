@@ -37,13 +37,11 @@ The application follows a modular 3-tier desktop architecture:
 - **Design Concepts:** Object-Oriented Programming (OOP), Signal & Slot Architecture, File Serialization
 
 ---
-## Screenshots
+## Screenshot
 
 ### Main Dashboard Overview
 [![Main Dashboard](images/dashboard.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/dashbord.png)
 
-### Smart Search
-[![Search & Filter](images/score-search.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/score-search.png)
 
 ---
 
