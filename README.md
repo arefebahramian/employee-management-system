@@ -1,19 +1,19 @@
 # Employee Management System
 
-A desktop Employee Management & Office Automation application built with **C++** and **Qt Framework** for the Advanced Programming course[cite: 1]. The system provides an interactive graphical interface to streamline corporate personnel management, track status logs, evaluate performance, and ensure persistent data storage across sessions[cite: 1].
+A desktop Employee Management & Office Automation application built with **C++** and **Qt Framework** for the Advanced Programming course. The system provides an interactive graphical interface to streamline corporate personnel management, track status logs, evaluate performance, and ensure persistent data storage across sessions.
 
 ---
 
 ## Key Features
 
-- **Dynamic Personnel Operations:** Add, update, fire, or promote employees to Manager with dynamic UI state updates.
+- **Dynamic Personnel Operations:** Add, update, remove, or promote employees to Manager with dynamic UI state updates.
 - **Smart Dual-Mode Search & Multi-Filtering:** 
-  - Text input automatically detects and filters by **Employee Name** or **Personnel ID**[cite: 1].
-  - Numeric input filters by **Performance Score** threshold[cite: 1].
-  - Additional categorical filtering by Department, Qualification, and Work Status[cite: 1].
-- **Real-Time Statistics Dashboard:** Visual table views, custom color coding (highlighting Managers in blue), and live percentage tracking for active staff[cite: 1].
-- **Persistent Data Storage:** Automatic serialization and deserialization of records to disk (`company_database.txt`)[cite: 1].
-- **Live System Logger:** Timestamped event tracking for all runtime actions displayed directly within the application window[cite: 1].
+  - Text input automatically detects and filters by **Employee Name** or **Personnel ID**.
+  - Numeric search automatically filters employees based on **performance score**.
+  - Additional categorical filtering by Department, Qualification, and Work Status.
+- **Real-Time Statistics Dashboard:** Visual table views, custom color coding (highlighting Managers in blue), and live percentage tracking for active staff.
+- **Persistent Data Storage:** Automatic serialization and deserialization of records to disk (`company_database.txt`).
+- **Live System Logger:** Timestamped event tracking for all runtime actions displayed directly within the application window.
 
 ---
 
@@ -23,10 +23,10 @@ The application follows a modular 3-tier desktop architecture:
 
 - **Presentation Layer (Qt UI):** Developed using Qt Widgets, custom table styles, and signal/slot architecture for event-driven user interaction.
 - **Business Logic Layer (OOP Core):**
-  - **Inheritance & Polymorphism:** Abstract base class `Employee` extended by `Manager` with overridden performance evaluation logic[cite: 1].
-  - **Composition:** `Company` class managing the life cycle and runtime collection of employee instances[cite: 1].
-  - **Memory Safety:** Explicit heap allocation management and clean object deallocation (`qDeleteAll` / virtual destructors) to guarantee zero memory leaks[cite: 1].
-- **Persistence Layer:** Disk file I/O operations managing system state persistence upon changes and application shutdown[cite: 1].
+  - **Inheritance & Polymorphism:** Abstract base class `Employee` extended by `Manager` with overridden performance evaluation logic.
+  - **Composition:** `Company` class managing the life cycle and runtime collection of employee instances.
+  - **Memory Safety:** Explicit heap allocation management and clean object deallocation (`qDeleteAll` / virtual destructors) to guarantee zero memory leaks.
+- **Persistence Layer:** Disk file I/O operations managing system state persistence upon changes and application shutdown.
 
 ---
 
@@ -40,9 +40,7 @@ The application follows a modular 3-tier desktop architecture:
 ## Screenshot
 
 ### Main Dashboard Overview
-[![Main Dashboard](images/dashboard.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/dashbord.png)
-
-
+[![Main Dashboard](images/dashboard.png)]
 ---
 
 ## Project Report & Documentation
@@ -51,8 +49,20 @@ A detailed report covering class diagrams, UML structure, and execution workflow
 
  [Project Report](docs/Employee-Management-System-Report.pdf)
 ---
+## Installation & Run
 
+### Requirements
+- Qt 5/6
+- C++17 Compiler
+- CMake / qmake
+
+### Steps
+1. Clone the repository
+2. Open project in Qt Creator
+3. Build and Run
+---
 ## Author
 
 **Arefeh Bahramian**  
-*Computer Science Student*
+B.Sc. Computer Science Student  
+Shiraz University
