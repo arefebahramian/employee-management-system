@@ -43,8 +43,7 @@ The application follows a modular 3-tier desktop architecture:
 [![Main Dashboard](images/dashboard.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/dashbord.png)
 
 ### Smart Search
-[![Search & Filter](images/score-search.png)
-](https://github.com/arefebahramian/employee-management-system/blob/main/images/score-search.png)
+[![Search & Filter](images/score-search.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/score-search.png)
 
 ---
 
