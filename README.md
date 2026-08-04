@@ -64,5 +64,5 @@ A detailed report covering class diagrams, UML structure, and execution workflow
 ## Author
 
 **Arefeh Bahramian**  
-B.Sc. Computer Science Student  
-Shiraz University
+Computer Science Student  
+
