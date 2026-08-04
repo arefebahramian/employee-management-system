@@ -37,21 +37,21 @@ The application follows a modular 3-tier desktop architecture:
 - **Design Concepts:** Object-Oriented Programming (OOP), Signal & Slot Architecture, File Serialization
 
 ---
-## 📸 Screenshots
+## Screenshots
 
 ### Main Dashboard Overview
 [![Main Dashboard](images/dashboard.png)](https://github.com/arefebahramian/employee-management-system/blob/main/images/dashbord.png)
 
 ### Smart Search
-![Search & Filter](images/score-search.png)
-
+[![Search & Filter](images/score-search.png)
+](https://github.com/arefebahramian/employee-management-system/blob/main/images/score-search.png)
 ---
 
-## 📑 Project Report & Documentation
+## Project Report & Documentation
 
 A detailed report covering class diagrams, UML structure, and execution workflows is available in the repository:
 
-📄 [Project Report](docs/Employee-Management-System-Report.pdf)
+ [Project Report](docs/Employee-Management-System-Report.pdf)
 ---
 
 ## Author
