@@ -42,13 +42,8 @@ The application follows a modular 3-tier desktop architecture:
 ### Main Dashboard Overview
 ![Main Dashboard](images/dashboard.png)
 
-### Form & Status Management
-![Employee Management](images/edit-employee.png)
-
 ### Smart Search
 ![Search & Filter](images/score-search.png)
-
-![Name Search](images/name-search.png)
 
 ---
 
@@ -56,7 +51,7 @@ The application follows a modular 3-tier desktop architecture:
 
 A detailed report covering class diagrams, UML structure, and execution workflows is available in the repository:
 
-📄 [Project Report](docs/Report.pdf)
+📄 [Project Report](docs/Employee-Management-System-Report.pdf)
 ---
 
 ## Author
