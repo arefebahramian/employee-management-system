@@ -37,26 +37,26 @@ The application follows a modular 3-tier desktop architecture:
 - **Design Concepts:** Object-Oriented Programming (OOP), Signal & Slot Architecture, File Serialization
 
 ---
-
-## Screenshots
+## 📸 Screenshots
 
 ### Main Dashboard Overview
-![Main Dashboard](images/dashboard.png)[cite: 1]
+![Main Dashboard](images/dashboard.png)
 
 ### Form & Status Management
-![Employee Management](images/edit-employee.png)[cite: 1]
+![Employee Management](images/edit-employee.png)
 
-### Smart Search & Filtering
-![Search & Filter](images/performance-search.png)[cite: 1]
+### Smart Search
+![Search & Filter](images/score-search.png)
+
+![Name Search](images/name-search.png)
 
 ---
 
-##  Project Report & Documentation
+## 📑 Project Report & Documentation
 
 A detailed report covering class diagrams, UML structure, and execution workflows is available in the repository:
 
-📄 [Project Report](docs/Report.pdf)[cite: 1]
-
+📄 [Project Report](docs/Report.pdf)
 ---
 
 ## Author
